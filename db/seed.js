@@ -1,4 +1,4 @@
--- \c travel_db
+// \c travel_db
 
 DELETE FROM favorites;
 DELETE FROM users;
