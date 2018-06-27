@@ -1,5 +1,3 @@
- // \c travel_db
-
 DROP TABLE IF EXISTS vacations CASCADE;
 DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS favorites CASCADE;

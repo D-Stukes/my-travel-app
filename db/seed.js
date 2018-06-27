@@ -1,5 +1,3 @@
-// \c travel_db
-
 DELETE FROM favorites;
 DELETE FROM users;
 DELETE FROM vacations;
