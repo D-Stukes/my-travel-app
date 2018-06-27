@@ -1,8 +1,3 @@
-DELETE FROM favorites;
-DELETE FROM users;
-DELETE FROM vacations;
-
--- create users table
 INSERT INTO users
   (name, email, hashpassword)
 VALUES
@@ -12,8 +7,6 @@ VALUES
   ('Margaret Tuny', 'margietootoo@gmail.com','123456'),
   ('George Finlaw', 'georgesharkfin@yahoo.com','123456');
 
-
--- vacations
 
 INSERT INTO vacations
  (location, description, latitude, longitude, img_url)
@@ -40,7 +33,6 @@ VALUES
 ('Japan', 'This place is rich with culture and music. They are very skilled in the arts!',36.204824,138.252924, './japan1.jpeg'),
 ('Alaska', 'So cold yet so lovely!',64.2008413,-149.4936733, './alaska1.jpeg');
 
--- favorites
 INSERT INTO favorites
   (fave_notes, user_id, vacations_id)
 VALUES
